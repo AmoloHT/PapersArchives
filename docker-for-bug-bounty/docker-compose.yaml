@@ -1,0 +1,12 @@
+version: '3.1'
+
+services:
+  app:
+    image: ubuntu
+    container_name: james_app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    stdin_open: true
+    tty: true

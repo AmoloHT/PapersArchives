@@ -1,0 +1,6 @@
+slack:
+  - id: "slack"
+    slack_channel: "example"
+    slack_username: "example_user"
+    slack_format: "{{data}}"
+    slack_webhook_url: "https://hooks.slack.com/services/x/y"
